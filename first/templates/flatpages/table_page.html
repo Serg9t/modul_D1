@@ -1,0 +1,29 @@
+{% extends 'flatpages/default.html' %}
+
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+
+{% block content %}
+<h2>{{ flatpage.title }}</h2>
+<hr>
+<table style="width: 340.281px;">
+    <tbody>
+    <tr style="height: 12.1875px;">
+        <td style="height: 12.1875px; width: 10px;">Sclool</td>
+        <td style="height: 12.1875px; width: 49px;">Speciality&nbsp;</td>
+        <td style="height: 12.1875px; width: 52px;">Language&nbsp;</td>
+        <td style="height: 12.1875px; width: 124.281px;">Framework</td>
+    </tr>
+    <tr style="height: 18px;">
+        <td style="height: 18px; width: 10px;">SkillFactory</td>
+        <td style="height: 18px; width: 49px;">Full-stack</td>
+        <td style="height: 18px; width: 52px;">Python</td>
+        <td style="height: 18px; width: 124.281px;">Django</td>
+    </tr>
+    </tbody>
+</table>
+<p>&nbsp;</p>
+
+{{ flatpage.content }}
+{% endblock content %}
